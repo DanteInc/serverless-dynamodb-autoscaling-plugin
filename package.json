@@ -1,0 +1,33 @@
+{
+  "name": "serverless-dynamodb-autoscaling-plugin",
+  "version": "1.0.0",
+  "description": "This plugin addes autoscaling and scheduled actions to DynamoDB tables.",
+  "author": "John Gilbert <john.gilbert@danteinc.com> (danteinc.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanteInc/serverless-dynamodb-autoscaling-plugin.git"
+  },
+  "keywords": [
+    "serverless",
+    "serverless plugin",
+    "dynamodb",
+    "autoscaling",
+    "aws",
+    "amazon web services",
+    "serverless.com"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix index.js",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "glob-all": "^3.1.0",
+    "lodash": "^4.13.1",
+    "mime-types": "^2.1.18"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
